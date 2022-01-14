@@ -1,6 +1,6 @@
 import { Layout, Menu, Breadcrumb } from 'antd';
 import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons';
-import IPage from '../interfaces/page'
+import { IPage } from '../interfaces/page'
 
 const { SubMenu } = Menu;
 const { Header, Content, Sider } = Layout;

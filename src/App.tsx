@@ -12,7 +12,7 @@ function App() {
               <Route
                 key={k}
                 path={routes.path}
-                element={<routes.component name={routes.name} />}
+                element={<routes.component name={routes.name}/>}
               />
             )
           })}
