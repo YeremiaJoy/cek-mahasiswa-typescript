@@ -1,5 +1,5 @@
 import IRoute from "../interfaces/route";
-import AboutPage from "../pages/about";
+import DetailPage from "../pages/detail";
 import HomePage from "../pages/home";
 
 const routes: IRoute[] = [
@@ -9,9 +9,9 @@ const routes: IRoute[] = [
     component: HomePage,
   },
   {
-    path: '/about',
-    name: 'About Page',
-    component: AboutPage,
+    path: '/details',
+    name: 'Detail Page',
+    component: DetailPage,
   }
 ]
 

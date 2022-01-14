@@ -2,15 +2,27 @@ export interface IPage {
   name: string;
 }
 
-export interface Address {
-  street: string,
-  number: number,
-  zip: number,
+export interface Univ {
+  id: string
 }
 
-export interface User {
+export interface Major {
+  id: string,
+}
+
+export interface Detail {
+  nim: string,
+  university: Univ,
+  prodi: Major,
+  ipk: string,
+  sks: number,
+  smst: number,
+  in: string
+}
+
+export interface Mahasiswa {
   name: string,
-  age: number,
-  country: string,
-  address: Address
+  gender: string,
+  wn: string,
+  terdaftar: Detail
 }
