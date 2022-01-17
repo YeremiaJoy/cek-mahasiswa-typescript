@@ -5,13 +5,13 @@ export const HomeLayout = styled.div`
 position: absolute;
 top: 50%; right: 50%;
 transform: translate(50%, -50%);
-padding: 50px;
-margin: 2px;
+padding: 36px;
 border-radius: 9px;
 border: 1px solid rgb(234, 234, 234);
 overflow: hidden;
 box-shadow: rgb(49 53 59 / 12%) 0px 1px 6px 0px;
 max-width: 700px;
+min-width: 350px;
 `
 
 export const Logo = styled.div`
